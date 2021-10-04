@@ -34,11 +34,11 @@
           "environmental": {
             "total_co2_emissions": {
               "value": 48528.08,
-              "unit": "mtCO2"
+              "unit": "mtCO2e"
             },
             "total_co2_emission_savings": {
               "value": 48528.08,
-              "unit": "mtCO2"
+              "unit": "mtCO2e"
             }
           },
           "sustainability": {
