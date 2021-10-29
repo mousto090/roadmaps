@@ -1,0 +1,969 @@
+{
+  "roadmaps": {
+      "aaf1d729-a93e-4ef2-a35e-6439f9fef2d2": {
+          "snapshot": {
+              "economic": {
+                  "total_investment_costs": {
+                      "value": 132540,
+                      "unit": "EUR"
+                  },
+                  "total_operational_costs": {
+                      "value": 17302,
+                      "unit": "EUR"
+                  },
+                  "npv": {
+                      "value": 11024,
+                      "unit": "EUR"
+                  },
+                  "overall_irr": {
+                      "value": 0.97,
+                      "unit": "%"
+                  },
+                  "mac": {
+                      "value": 17.04,
+                      "unit": "EUR/mtCO2e"
+                  }
+              },
+              "environmental": {
+                  "total_co2_emissions": {
+                      "value": 82.39,
+                      "unit": "ktCO2eq"
+                  },
+                  "target_reached_in": "2031"
+              },
+              "sustainability": {
+                  "total_energy_consumption": {
+                      "value": 463.73,
+                      "unit": "GWh"
+                  },
+                  "renewable_energy_rate": {
+                      "value": 51,
+                      "unit": "%"
+                  }
+              }
+          },
+          "detailed_results": {
+              "index": [
+                  "2021",
+                  "2022",
+                  "2023",
+                  "2024",
+                  "2025",
+                  "2026",
+                  "2027"
+              ],
+              "CAPEX": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "EUR",
+                      "values": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "EUR",
+                      "values": [
+                          "NaN",
+                          538550.56,
+                          538550.56,
+                          538550.56,
+                          538550.56,
+                          538550.56,
+                          538550.56
+                      ]
+                  }
+              ],
+              "CO2 scope 1": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          "NaN",
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  }
+              ],
+              "CO2 scope 2": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          "NaN",
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  }
+              ],
+              "CO2 scope 3": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          "NaN",
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  }
+              ],
+              "Consumption": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "kWh",
+                      "values": [
+                          3,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "kWh",
+                      "values": [
+                          "NaN",
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  }
+              ],
+              "OPEX": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "EUR",
+                      "values": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "EUR",
+                      "values": [
+                          "NaN",
+                          107616983.89,
+                          107616983.89,
+                          107616983.89,
+                          107616983.89,
+                          107616983.89,
+                          107616983.89
+                      ]
+                  }
+              ]
+          },
+          "worldmap_kpis": [
+              {
+                  "id": "25ab2dfe-abdb-47cf-8ebb-bf1c548609d1",
+                  "name": "Store_Milton_Keynes",
+                  "position": [
+                      52.01,
+                      -0.73
+                  ],
+                  "values": {
+                      "total_investment_costs": {
+                          "value": 23905474.23,
+                          "unit": "EUR"
+                      },
+                      "total_operational_costs": {
+                          "value": 42075330624.32,
+                          "unit": "EUR"
+                      },
+                      "total_co2_emissions": {
+                          "value": 4199765.41,
+                          "unit": "kgCO2eq"
+                      },
+                      "total_energy_consumption": {
+                          "value": 32809430.73,
+                          "unit": "kWh"
+                      },
+                      "renewable_energy_rate": {
+                          "value": 51,
+                          "unit": "%"
+                      }
+                  }
+              },
+              {
+                  "id": "2eb62aff-04c7-4413-a8dd-9caea23c2626",
+                  "name": "Centre_Porto",
+                  "position": [
+                      41.21,
+                      -8.69
+                  ],
+                  "values": {
+                      "total_investment_costs": {
+                          "value": 25853222.36,
+                          "unit": "EUR"
+                      },
+                      "total_operational_costs": {
+                          "value": 34391967621.94,
+                          "unit": "EUR"
+                      },
+                      "total_co2_emissions": {
+                          "value": 24779029.42,
+                          "unit": "kgCO2eq"
+                      },
+                      "total_energy_consumption": {
+                          "value": 164785520.38,
+                          "unit": "kWh"
+                      },
+                      "renewable_energy_rate": {
+                          "value": 51,
+                          "unit": "%"
+                      }
+                  }
+              },
+              {
+                  "id": "7be4e6d7-ce9b-45e1-8262-08dcd85ea6ae",
+                  "name": "Centre_Rostov",
+                  "position": [
+                      47.29,
+                      39.85
+                  ],
+                  "values": {
+                      "total_investment_costs": {
+                          "value": 24442726.38,
+                          "unit": "EUR"
+                      },
+                      "total_operational_costs": {
+                          "value": 8821056493.97,
+                          "unit": "EUR"
+                      },
+                      "total_co2_emissions": {
+                          "value": 50260325.5,
+                          "unit": "kgCO2eq"
+                      },
+                      "total_energy_consumption": {
+                          "value": 240444309.22,
+                          "unit": "kWh"
+                      },
+                      "renewable_energy_rate": {
+                          "value": 51,
+                          "unit": "%"
+                      }
+                  }
+              },
+              {
+                  "id": "d8c94beb-3f2a-493d-a6f1-df4b75d23ac9",
+                  "name": "Store_Armersfoort",
+                  "position": [
+                      52.18,
+                      5.42
+                  ],
+                  "values": {
+                      "total_investment_costs": {
+                          "value": 25853222.36,
+                          "unit": "EUR"
+                      },
+                      "total_operational_costs": {
+                          "value": 699476583.11,
+                          "unit": "EUR"
+                      },
+                      "total_co2_emissions": {
+                          "value": 3148503.39,
+                          "unit": "kgCO2eq"
+                      },
+                      "total_energy_consumption": {
+                          "value": 25691648.43,
+                          "unit": "kWh"
+                      },
+                      "renewable_energy_rate": {
+                          "value": 51,
+                          "unit": "%"
+                      }
+                  }
+              }
+          ],
+          "projects": [
+              {
+                  "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                  "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                  "startDate": "2022-01-01",
+                  "capex": 77009.57,
+                  "duration": 6.00,
+                  "asset": {
+                      "size": 111.88,
+                      "expiration_year": 2052
+                  }
+              },
+              {
+                  "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                  "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                  "startDate": "2022-01-01",
+                  "capex": 34232.60,
+                  "duration": 6.00,
+                  "asset": {
+                      "size": 797.79,
+                      "expiration_year": 2047
+                  }
+              }
+          ],
+          "meta": {
+              "ssotool_core_version": "UNKNOWN",
+              "generated_on": "2021-10-14 07:38:51",
+              "result_file_version": "1.0",
+              "result_type": "full"
+          },
+          "isBaseline": true
+      },
+      "e1b960c0-2e6a-4550-a17c-74f0c697aa96": {
+          "snapshot": {
+              "economic": {
+                  "total_investment_costs": {
+                      "value": 132540,
+                      "unit": "EUR"
+                  },
+                  "total_operational_costs": {
+                      "value": 17302,
+                      "unit": "EUR"
+                  },
+                  "npv": {
+                      "value": 11024,
+                      "unit": "EUR"
+                  },
+                  "overall_irr": {
+                      "value": 0.97,
+                      "unit": "%"
+                  },
+                  "mac": {
+                      "value": 17.04,
+                      "unit": "EUR/mtCO2e"
+                  }
+              },
+              "environmental": {
+                  "total_co2_emissions": {
+                      "value": 83.21,
+                      "unit": "ktCO2eq"
+                  },
+                  "target_reached_in": "2031"
+              },
+              "sustainability": {
+                  "total_energy_consumption": {
+                      "value": 462.34,
+                      "unit": "GWh"
+                  },
+                  "renewable_energy_rate": {
+                      "value": 51,
+                      "unit": "%"
+                  }
+              }
+          },
+          "detailed_results": {
+              "index": [
+                  "2021",
+                  "2022",
+                  "2023",
+                  "2024",
+                  "2025",
+                  "2026",
+                  "2027"
+              ],
+              "CAPEX": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "EUR",
+                      "values": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "EUR",
+                      "values": [
+                          "NaN",
+                          530000.56,
+                          530000.56,
+                          530000.56,
+                          530000.56,
+                          530000.56,
+                          530000.56
+                      ]
+                  }
+              ],
+              "CO2 scope 1": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          0,
+                          5,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          "NaN",
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  }
+              ],
+              "CO2 scope 2": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          0,
+                          50,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          "NaN",
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  }
+              ],
+              "CO2 scope 3": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "kgCO2eq",
+                      "values": [
+                          "NaN",
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  }
+              ],
+              "Consumption": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "kWh",
+                      "values": [
+                          123,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "kWh",
+                      "values": [
+                          "NaN",
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  }
+              ],
+              "OPEX": [
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1663939c-0323-40d7-b670-68c362b3891e",
+                      "sectorId": "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0",
+                      "companyEntityId": "b77548dd-6356-48bb-9bb2-42ccb813f613",
+                      "fluidId": "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7",
+                      "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                      "campaignType": "None",
+                      "unit": "EUR",
+                      "values": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                      ]
+                  },
+                  {
+                      "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                      "processId": "1fe9ed6d-31a3-441a-ba7e-c79848977b25",
+                      "sectorId": "8b291e04-3943-4282-a3b6-eee594a6a623",
+                      "companyEntityId": "04dd250e-49b8-4f71-aa73-6f04fad7a487",
+                      "fluidId": "f4164385-c0ac-45d8-bdad-61759528c5a5",
+                      "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                      "campaignType": "renewableProduction",
+                      "unit": "EUR",
+                      "values": [
+                          "NaN",
+                          107000000.89,
+                          107000000.89,
+                          107000000.89,
+                          107000000.89,
+                          107000000.89,
+                          107000000.89
+                      ]
+                  }
+              ]
+          },
+          "worldmap_kpis": [
+              {
+                  "id": "25ab2dfe-abdb-47cf-8ebb-bf1c548609d1",
+                  "name": "Store_Milton_Keynes",
+                  "position": [
+                      52.01,
+                      -0.73
+                  ],
+                  "values": {
+                      "total_investment_costs": {
+                          "value": 15051790.59,
+                          "unit": "EUR"
+                      },
+                      "total_operational_costs": {
+                          "value": 41481353808.03,
+                          "unit": "EUR"
+                      },
+                      "total_co2_emissions": {
+                          "value": 5026359.12,
+                          "unit": "kgCO2eq"
+                      },
+                      "total_energy_consumption": {
+                          "value": 31423144.81,
+                          "unit": "kWh"
+                      },
+                      "renewable_energy_rate": {
+                          "value": 51,
+                          "unit": "%"
+                      }
+                  }
+              },
+              {
+                  "id": "2eb62aff-04c7-4413-a8dd-9caea23c2626",
+                  "name": "Centre_Porto",
+                  "position": [
+                      41.21,
+                      -8.69
+                  ],
+                  "values": {
+                      "total_investment_costs": {
+                          "value": 20022039.19,
+                          "unit": "EUR"
+                      },
+                      "total_operational_costs": {
+                          "value": 34389299633.98,
+                          "unit": "EUR"
+                      },
+                      "total_co2_emissions": {
+                          "value": 24779029.42,
+                          "unit": "kgCO2eq"
+                      },
+                      "total_energy_consumption": {
+                          "value": 164785520.38,
+                          "unit": "kWh"
+                      },
+                      "renewable_energy_rate": {
+                          "value": 51,
+                          "unit": "%"
+                      }
+                  }
+              },
+              {
+                  "id": "7be4e6d7-ce9b-45e1-8262-08dcd85ea6ae",
+                  "name": "Centre_Rostov",
+                  "position": [
+                      47.29,
+                      39.85
+                  ],
+                  "values": {
+                      "total_investment_costs": {
+                          "value": 18611543.21,
+                          "unit": "EUR"
+                      },
+                      "total_operational_costs": {
+                          "value": 8816591889.82,
+                          "unit": "EUR"
+                      },
+                      "total_co2_emissions": {
+                          "value": 50260325.5,
+                          "unit": "kgCO2eq"
+                      },
+                      "total_energy_consumption": {
+                          "value": 240444309.22,
+                          "unit": "kWh"
+                      },
+                      "renewable_energy_rate": {
+                          "value": 51,
+                          "unit": "%"
+                      }
+                  }
+              },
+              {
+                  "id": "d8c94beb-3f2a-493d-a6f1-df4b75d23ac9",
+                  "name": "Store_Armersfoort",
+                  "position": [
+                      52.18,
+                      5.42
+                  ],
+                  "values": {
+                      "total_investment_costs": {
+                          "value": 20022039.19,
+                          "unit": "EUR"
+                      },
+                      "total_operational_costs": {
+                          "value": 697864586.54,
+                          "unit": "EUR"
+                      },
+                      "total_co2_emissions": {
+                          "value": 3148503.39,
+                          "unit": "kgCO2eq"
+                      },
+                      "total_energy_consumption": {
+                          "value": 25691648.43,
+                          "unit": "kWh"
+                      },
+                      "renewable_energy_rate": {
+                          "value": 51,
+                          "unit": "%"
+                      }
+                  }
+              }
+          ],
+          "projects": [
+              {
+                  "campaignId": "ee905a3e-8a68-4eeb-bf5a-9120e642c083",
+                  "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                  "startDate": "2022-01-01",
+                  "capex": 77009.57,
+                  "duration": 6.00,
+                  "asset": {
+                      "size": 111.88,
+                      "expiration_year": 2052
+                  }
+              },
+              {
+                  "campaignId": "7344a4ca-749a-4470-840c-5a8f7ef3c858",
+                  "geoId": "414d796b-6d7e-4ef0-b3c4-782190db6367",
+                  "startDate": "2022-01-01",
+                  "capex": 34232.60,
+                  "duration": 6.00,
+                  "asset": {
+                      "size": 797.79,
+                      "expiration_year": 2047
+                  }
+              }
+          ],
+          "meta": {
+              "ssotool_core_version": "UNKNOWN",
+              "generated_on": "2021-10-13 09:20:37",
+              "result_file_version": "1.0",
+              "result_type": "full"
+          },
+          "isBaseline": false
+      }
+  },
+  "common_data": {
+      "campaign_data": {
+          "ee905a3e-8a68-4eeb-bf5a-9120e642c083": {
+              "campaignType": "storage",
+              "category": "Hot Water Tank, Delta T = 5°",
+              "scale": "Small"
+          },
+          "7344a4ca-749a-4470-840c-5a8f7ef3c858": {
+              "campaignType": "storage",
+              "category": "Hot Water Tank, Delta T = 10°",
+              "scale": "Small"
+          }
+      },
+      "id_name_mapping": {
+          "site_mapping": {
+              "414d796b-6d7e-4ef0-b3c4-782190db6367": "Store_Milton_Keynes"
+          },
+          "process_mapping": {
+              "a7e4dd5f-8df0-4a53-9267-d15697222ab2": "buy wood",
+              "e0e26bec-2e6d-40b3-b1e8-efc65f7a32c2": "Wind",
+              "5de46536-f162-4a7f-bca8-bef29c1aa545": "Battery",
+              "2550ea98-3bad-4bf4-ad92-032a798bebf8": "cold water production - electricity",
+              "c1cab856-090c-4804-ba7e-e9fd95c2214d": "hot water production - wood chips",
+              "a2d292a9-f41a-4601-a05c-49d486636833": "buy biogas",
+              "785dedb6-c2f1-493f-a660-7a048db6d1c1": "Heat tank",
+              "4afb8c64-5869-4d68-9343-672e47f79124": "hot water",
+              "3d7c6f19-19a7-45b7-870c-bba6a0ebeb93": "hot water production - gas",
+              "a425e4e1-e8be-43c1-81fa-5492df84278d": "buy gas",
+              "86c11147-b4b4-4501-8e6d-bce05fa5c662": "buy electricity",
+              "1663939c-0323-40d7-b670-68c362b3891e": "buy valorizable waste",
+              "e6c14a62-e47b-4c99-9314-e2f03dc0518e": "hot water production - valorizable waste",
+              "1fe9ed6d-31a3-441a-ba7e-c79848977b25": "PV"
+          },
+          "sector_mapping": {
+              "8ac50b7b-d0d4-4ba6-bcfb-c12dc58aa140": "Non-freestanding",
+              "dc91be96-2d0e-4fec-afa4-6bff3aaf70d0": "Freestanding",
+              "8b291e04-3943-4282-a3b6-eee594a6a623": "Primary Industry"
+          },
+          "company_entity_mapping": {
+              "b77548dd-6356-48bb-9bb2-42ccb813f613": "Store",
+              "04dd250e-49b8-4f71-aa73-6f04fad7a487": "Retail_company",
+              "d424f63c-8ef6-4725-88c4-bc77916daca1": "Centre"
+          },
+          "fluid_mapping": {
+              "469eaa64-d789-4bfb-afb9-1d8f407bf9cf": "biogas",
+              "8f344a2c-e6ea-4817-b8c6-3f0345ba63a9": "hot water",
+              "4641cc58-734a-414e-b9c6-0433d98df662": "heat",
+              "3d326997-25cf-4751-911f-9783fbdcffc5": "wood chips",
+              "d5a29ea3-0256-4281-bab6-7c8d13aa4fc7": "valorizable waste",
+              "f4164385-c0ac-45d8-bdad-61759528c5a5": "electricity",
+              "d7ba3a38-03d7-4d89-b703-b65688f64894": "cold water",
+              "72a3375f-d913-433f-b7a2-a577b7ad3b64": "gas"
+          },
+          "campaign_mapping": {
+              "ee905a3e-8a68-4eeb-bf5a-9120e642c083": "Hot Water Tank, Delta T = 5° hot water",
+              "7344a4ca-749a-4470-840c-5a8f7ef3c858": "Hot Water Tank, Delta T = 10° hot water"
+          },
+          "roadmap_mapping": {
+              "aaf1d729-a93e-4ef2-a35e-6439f9fef2d2": "Baseline",
+              "e1b960c0-2e6a-4550-a17c-74f0c697aa96": "Test Roadmap"
+          }
+      },
+      "external_mapping": {
+          "project_mapping": {
+              "ee905a3e-8a68-4eeb-bf5a-9120e642c083": "1"
+          },
+          "site_mapping": {
+              "414d796b-6d7e-4ef0-b3c4-782190db6367": "5"
+          }
+      }
+  }
+}
